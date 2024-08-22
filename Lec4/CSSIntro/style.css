@@ -1,0 +1,22 @@
+
+
+body{
+
+    color: blue;
+}
+h1{
+
+    color: indigo;
+    background-color: coral;
+    border: 1px solid blue;
+}
+p{
+width: 800px;
+    color: brown;
+    border: 1px solid gray;
+}
+h2{
+text-transform: uppercase;
+font-size: larger;
+
+}

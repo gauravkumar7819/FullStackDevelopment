@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+<pre><h2>they are used to send data to server,
+    there are two type of forms 
+    1.post
+    2.get
+</pre>
+</h2>
+<p>there are following type of type</p>
+<li>text</li>
+<li>number</li>
+<li>radio</li>
+<li>checkBox</li>
+<li>email</li>
+<li>password</li>
+<li>dropDown</li>
+
+<fieldset  > <legend>Personal Info</legend>
+    <form action="backend.js">
+        <label for="Username"> Username </label>
+
+        <input type="text"  id="Username" name="username">
+ <br><br>
+    <label for="Password"> password</label>
+    <input type="password" id="Password" name="password">
+<br><br></fieldset>
+<br><br>
+<fieldset><legend>Education</legend>
+    <label for="marksheet">marksheet</label>
+<input type="file" placeholder="marksheet" id="marksheet">
+</fieldset>
+<div>
+    <legend for="Gender"> Gender</legend>
+
+    <input type="radio" name="male" id="male">male
+
+    <input type="radio" name="male" id="male">female
+
+    <input type="radio" name="male" id="male">Other
+</div>
+    <button>Submit</button>
+    
+</form>
+</body>
+</html>
