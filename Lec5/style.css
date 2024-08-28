@@ -1,0 +1,16 @@
+h3{
+    color: red;
+    border: 2px dotted black;
+    background-color: aliceblue;
+    
+}
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+    color: #ffff;
+}
+.heading2{
+    color:sienna;
+}

@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #1ca4da;
+    background-image: url(back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
