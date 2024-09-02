@@ -1,0 +1,19 @@
+div p{
+    color: wheat;
+    background-color: transparent;
+}
+*{
+    background-color: black;
+}
+h1{
+    color: #ffff;
+}
+ul>li{
+    color: #ffff;
+}
+li+p{
+    color: aquamarine;
+}
+p~li{
+    color: navy;
+}
