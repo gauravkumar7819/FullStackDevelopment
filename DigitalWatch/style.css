@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    background-color: black;
+    color: #ffff;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    position: relative;
+    top: 50vh;
+    font-size: 1.5rem;
+}
+.clock{
+    border: 2px solid white;
+    position: relative;
+    top:50vh;
+    background-color: yellow;
+}
