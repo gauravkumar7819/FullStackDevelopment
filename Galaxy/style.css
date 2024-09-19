@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 3px solid rgb(219, 16, 16);
+    height: 100vh;
+    width:100vw;
+}
+.sun{
+    border: 3px solid black;
+    height: 100px;
+    width:100px;
+}
+.orbit1{
+    border: 2px solid black;
+    height: 300px;
+    width:300px;
+}
+.orbit2{
+    border: 2px solid black;
+    height: 300px;
+    width:300px;
+}
