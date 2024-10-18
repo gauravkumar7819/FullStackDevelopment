@@ -17,7 +17,7 @@
     
 // }
 
-let arr=[1,2,3,4];
+let arr=[15,19,20,22,18,13,16,11];
 // function fun1(item){
 //     return item*3;
 
@@ -26,9 +26,41 @@ let arr=[1,2,3,4];
 // let newarr=arr.map(item=>item*4); //ES6
 // console.log(newarr);
 
-let newarr=arr.filter(item=>item%2);//oddelement
+// let newarr=arr.filter(item=>item%2);//oddelement
 
 
-console.log(newarr);
+// console.log(newarr);
 
+// let newarr=arr.reduce((acc,cava)=>{
+    //     acc=acc+cava;
+    //     return acc;
+    // },100)
+    // console.log(newarr);
+    
+    // let newarr=arr.forEach((item)=>item*2);
+    // console.log(arr);
+    
 
+    //
+    // let newarr=arr.filter(item=>item%2==0);//oddelement
+    // let p=newarr.map((item=>item*2));
+
+    // let k=arr.reduce((acc,cava)=>{
+    //         acc=acc+cava;
+    //         return acc;
+    //     },0)
+    //     console.log(k);
+    // console.log(p);
+
+    let ans=arr.filter((item)=>{
+        return item*2==0;
+    }).map((item)=>{
+        return item*2;
+
+    }).reduce((acc,calval)=>{
+        acc=acc+calval;
+        return acc;
+    })
+    console.log(ans);
+    
+    
