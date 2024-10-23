@@ -18,24 +18,37 @@
     
 
 // })
-let sum=(a,b)=>{
-    return new Promise((resolve,reject)=>{
-        // let a=20;
-        // let b=30;
-        if((a+b)>5){
-            return resolve(a+b);
-        }
-        else{
-            return reject("sum of a & b is less than 55")
-        }
-    })
-}
-sum(56,56).then((res)=>{
-    console.log(res);
+// let sum=(a,b)=>{
+//     return new Promise((resolve,reject)=>{
+//         // let a=20;
+//         // let b=30;
+//         if((a+b)>5){
+//             return resolve(a+b);
+//         }
+//         else{
+//             return reject("sum of a & b is less than 55")
+//         }
+//     })
+// }
+// sum(56,56).then((res)=>{
+//     console.log(res);
     
 
-}).catch((err)=>{
-    console.log(err);
+// }).catch((err)=>{
+//     console.log(err);
     
 
-})
+
+// })
+// Fetch
+// fetch("https://google.com").then((res)=>{
+//     return res.json();
+// }).then((data)=>{
+//     console.log(data);
+    
+// }).catch((err)=>{
+// console.log(err);
+// })
+fetch('https://jsonplaceholder.typicode.com/posts')
+      .then((res) =>{ return res.json()})
+      .then((data) =>{ console.log(data)})
