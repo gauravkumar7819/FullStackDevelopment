@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    height:20rem;
+    width: 20rem;
+
+    border: 2px solid black;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+
+}
+.btn{
+    margin: 40px auto;
+padding: 10px;
+border-radius: 10px;
+background-color: aqua;
+color:grey;}
+.btn:hover{
+    background-color: brown;
+    transition: all;
+    transition-duration: 2s;
+}
