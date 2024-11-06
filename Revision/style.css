@@ -25,5 +25,5 @@ color:grey;}
 .btn:hover{
     background-color: brown;
     transition: all;
-    transition-duration: 2s;
+    /* transition-duration: 2s; */
 }
