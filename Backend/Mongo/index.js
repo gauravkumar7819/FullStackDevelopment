@@ -35,3 +35,14 @@ use2.save().then((res)=>{
     console.log(err);
     
 })
+User.insertMany([{name:"govind",email:"govind@gmail.com",age:16,},
+    {name:"govind",email:"govind@gmail.com",age:16,},
+    {name:"Krishn",email:"Krishn@gmail.com",age:16,},
+    {name:"Keshav",email:"Murari@gmail.com",age:16,},
+    {name:"Murari",email:"Murari@gmail.com",age:16,}
+] ).then((re)=>{
+console.log(res);}
+ ).catch((err)=>{
+    console.log("ome error");
+    
+ })
