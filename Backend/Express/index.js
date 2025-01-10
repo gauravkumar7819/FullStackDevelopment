@@ -3,7 +3,6 @@ const app = express()
  let port=2000;
  app.listen(port,()=>{
     console.log("server is ON ");
-    
  })
 //  app.use((req,res)=>{
 //    let code ="<h1>hello</h1> <ul><li>apple</li><li>apple</li><li>apple</li></ul>"
