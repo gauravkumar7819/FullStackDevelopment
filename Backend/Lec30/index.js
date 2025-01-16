@@ -3,10 +3,13 @@ const app = express();
 
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
-
-app.get("/help", (req, res) => {
-  res.send("You are contacted help path");
-});
+app.get("/product/:id", (req, res) => { 
+console.log(req.params);
+res.send("You are requested for product id: " + req.params.id);
+   });
+// app.get("/help", (req, res) => {
+//   res.send("You are contacted help path");
+// });
 
 app.post("/help", (req, res) => {
   const { name, email, phone } = req.body;
